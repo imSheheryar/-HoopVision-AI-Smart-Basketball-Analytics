@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Model files (these should be downloaded separately)
+models/*.pt
+
+# Output and input videos (to keep repository size manageable)
+input_videos/*
+output_videos/*
+!input_videos/.gitkeep
+!output_videos/.gitkeep
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+
+# Operating System Files
+.DS_Store
+Thumbs.db
